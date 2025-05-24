@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "sabnacraft",
+	"version": "${version}",
+	"name": "Sabnacraft",
+	"description": "Мод по легендарной игре сабнаутика",
+	"authors": [
+		"KiBiTo team"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/sabnacraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.kibito.sabnacraft.Sabnacraft"
+		],
+		"fabric-datagen": [
+			"net.kibito.sabnacraft.SabnacraftDataGenerator"
+		],
+		"client": [
+			"net.kibito.sabnacraft.Sabnacraftclient"
+		],
+		"fabric-datagen": [
+			"net.kibito.sabnacraft.SabnacraftDataGenerator"
+		]
+	},
+	"mixins": [
+		"sabnacraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
