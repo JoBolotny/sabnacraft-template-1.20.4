@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "sabnacraft:silver_block"
+    }
+  ],
+  "result": {
+    "item": "sabnacraft:silver_ingot",
+    "count": 9
+  }
+}

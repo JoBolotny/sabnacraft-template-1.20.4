@@ -1,0 +1,34 @@
+package net.kibito.sabnacraft.item;
+
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.kibito.sabnacraft.Sabnacraft;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroups;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.util.Identifier;
+import org.jetbrains.annotations.NotNull;
+
+public class Moditems {
+    public static final Item RAW_SILVER = registerItem("raw_silver",new Item(new FabricItemSettings()));
+    public static final Item KYANITE = registerItem("kyanite",new Item(new FabricItemSettings()));
+    public static final Item SILVER_INGOT = registerItem("silver_ingot",new Item(new FabricItemSettings()));
+
+    private static void addItemToIngredientTabItemGroup(@NotNull FabricItemGroupEntries entries){
+        entries.add(RAW_SILVER);
+    }
+
+    private static Item registerItem(String name,Item item){
+        return Registry.register(Registries.ITEM, new Identifier(Sabnacraft.MOD_ID, name),item);
+    }
+    public static  void registerModItems(){
+        Sabnacraft.LOGGER.info("Register mod item for" + Sabnacraft.MOD_ID);
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(Moditems::addItemToIngredientTabItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(Moditems::addItemToIngredientTabItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(Moditems::addItemToIngredientTabItemGroup);
+    }
+
+}

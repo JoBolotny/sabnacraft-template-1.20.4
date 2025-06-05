@@ -2,6 +2,9 @@ package net.kibito.sabnacraft;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.kibito.sabnacraft.block.ModBlocks;
+import net.kibito.sabnacraft.item.ModItemGroup;
+import net.kibito.sabnacraft.item.Moditems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +14,9 @@ public class Sabnacraft implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroup.registerItemGroup();
 
+		Moditems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
