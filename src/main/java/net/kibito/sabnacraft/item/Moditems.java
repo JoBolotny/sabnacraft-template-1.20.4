@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.kibito.sabnacraft.Sabnacraft;
+import net.kibito.sabnacraft.item.custom.ScanerItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -15,6 +16,12 @@ public class Moditems {
     public static final Item RAW_SILVER = registerItem("raw_silver",new Item(new FabricItemSettings()));
     public static final Item KYANITE = registerItem("kyanite",new Item(new FabricItemSettings()));
     public static final Item SILVER_INGOT = registerItem("silver_ingot",new Item(new FabricItemSettings()));
+    public static final Item ADVANCED_WIRING_KIT = registerItem("advanced_wiring_kit",new Item(new FabricItemSettings()));
+    public static final Item WIRING_KIT = registerItem("wiring_kit",new Item(new FabricItemSettings()));
+    public static final Item COMPUTER_CHIP = registerItem("computer_chip",new Item(new FabricItemSettings()));
+    public static final Item CRYSTAL_FLINT = registerItem("crystal_flint",new Item(new FabricItemSettings()));
+    public static final Item SCANER = registerItem("scaner",
+            new ScanerItem(new FabricItemSettings().maxDamage(64)));
 
     private static void addItemToIngredientTabItemGroup(@NotNull FabricItemGroupEntries entries){
         entries.add(RAW_SILVER);

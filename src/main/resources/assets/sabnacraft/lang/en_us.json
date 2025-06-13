@@ -2,6 +2,11 @@
     "item.sabnacraft.raw_silver": "Raw_silver",
     "item.sabnacraft.kyanite": "Kyanite Shard",
     "item.sabnacraft.silver_ingot": "Silver Ingot",
+    "item.sabnacraft.wiring_kit": "Wiring Kit",
+    "item.sabnacraft.advanced_wiring_kit": "Advanced wiring kit",
+    "item.sabnacraft.computer_chip": "Computer chip",
+    "item.sabnacraft.crystal_flint": "Crystal flint",
+    "item.sabnacraft.scaner": "Scaner",
 
     "block.sabnacraft.silver_block": "Block of Silver",
     "block.sabnacraft.silver_ore": "Silver Ore",
