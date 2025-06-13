@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "sabnacraft",
-	"version": "${version}",
+	"version": "Alpha",
 	"name": "Sabnacraft",
 	"description": "Мод по легендарной игре сабнаутика",
 	"authors": [

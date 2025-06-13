@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools":[
     {
-      "bonus_rolls": 5.0,
+      "bonus_rolls": 2.0,
       "conditions":[
         {
           "condition": "minecraft:survives_explosion"
@@ -14,7 +14,7 @@
           "name": "sabnacraft:raw_silver"
         }
       ],
-      "rolls": 2.0
+      "rolls": 1.0
     }
   ]
 }

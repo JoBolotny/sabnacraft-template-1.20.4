@@ -14,10 +14,15 @@ public class ModItemGroup {
 
     public static final ItemGroup SABNACRAFT = Registry.register(Registries.ITEM_GROUP,new Identifier(Sabnacraft.MOD_ID,"sabnacraft"),
             FabricItemGroup.builder().displayName(Text.translatable("sabnacraft"))
-                    .icon(() ->new ItemStack(Moditems.RAW_SILVER)).entries((displayContext, entries) -> {
+                    .icon(() ->new ItemStack(Moditems.KYANITE)).entries((displayContext, entries) -> {
                 entries.add(Moditems.KYANITE);
                 entries.add(Moditems.RAW_SILVER);
                 entries.add(Moditems.SILVER_INGOT);
+                entries.add(Moditems.WIRING_KIT);
+                entries.add(Moditems.ADVANCED_WIRING_KIT);
+                entries.add(Moditems.COMPUTER_CHIP);
+                entries.add(Moditems.CRYSTAL_FLINT);
+                entries.add(Moditems.SCANER);
                 entries.add(ModBlocks.SILVER_BLOCK);
                 entries.add(ModBlocks.SILVER_ORE);
                     }).build() );
