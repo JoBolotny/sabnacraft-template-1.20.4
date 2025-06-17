@@ -6,9 +6,14 @@
   "item.sabnacraft.advanced_wiring_kit": "Расширенный комплект проводов",
   "item.sabnacraft.computer_chip": "Микросхема",
   "item.sabnacraft.crystal_flint": "Кристалический кремень",
+  "item.sabnacraft.ion_cube": "Иновый кубик",
+  "item.sabnacraft.raw_lithium": "Необработаный литий",
+  "item.sabnacraft.raw_nickel": "Необработаный никель",
+  "item.sabnacraft.nickel_ingot": "Никелевый слиток",
 
   "block.sabnacraft.silver_block": "Серебряный блок",
   "block.sabnacraft.silver_ore": "Серебряная руда",
+  "block.sabnacraft.deepslate_silver_ore": "Серебряносный глубинный сланец",
 
-  "Sabnacraft": "Sabnacraft Предметы"
+  "sabnacraft": "Сабнакрафт Предметы"
 }

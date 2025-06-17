@@ -14,7 +14,7 @@ public class ModItemGroup {
 
     public static final ItemGroup SABNACRAFT = Registry.register(Registries.ITEM_GROUP,new Identifier(Sabnacraft.MOD_ID,"sabnacraft"),
             FabricItemGroup.builder().displayName(Text.translatable("sabnacraft"))
-                    .icon(() ->new ItemStack(Moditems.KYANITE)).entries((displayContext, entries) -> {
+                    .icon(() ->new ItemStack(Moditems.PEEPER)).entries((displayContext, entries) -> {
                 entries.add(Moditems.KYANITE);
                 entries.add(Moditems.RAW_SILVER);
                 entries.add(Moditems.SILVER_INGOT);
@@ -23,8 +23,14 @@ public class ModItemGroup {
                 entries.add(Moditems.COMPUTER_CHIP);
                 entries.add(Moditems.CRYSTAL_FLINT);
                 entries.add(Moditems.SCANER);
+                entries.add(Moditems.ION_CUBE);
+                entries.add(Moditems.RAW_LITHIUM);
+                entries.add(Moditems.RAW_NICKEL);
+                entries.add(Moditems.NICKEL_INGOT);
+
                 entries.add(ModBlocks.SILVER_BLOCK);
                 entries.add(ModBlocks.SILVER_ORE);
+                entries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
                     }).build() );
 
     public static void registerItemGroup(){
