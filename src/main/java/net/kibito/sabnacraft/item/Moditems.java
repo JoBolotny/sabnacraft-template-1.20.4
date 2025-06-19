@@ -28,9 +28,6 @@ public class Moditems {
     public static final Item SCANER = registerItem("scaner",
             new ScanerItem(new FabricItemSettings().maxDamage(64)));
 
-    private static void addItemToIngredientTabItemGroup(@NotNull FabricItemGroupEntries entries){
-        entries.add(RAW_SILVER);
-    }
 
     private static Item registerItem(String name,Item item){
         return Registry.register(Registries.ITEM, new Identifier(Sabnacraft.MOD_ID, name),item);
@@ -38,9 +35,6 @@ public class Moditems {
     public static  void registerModItems(){
         Sabnacraft.LOGGER.info("Register mod item for" + Sabnacraft.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(Moditems::addItemToIngredientTabItemGroup);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(Moditems::addItemToIngredientTabItemGroup);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(Moditems::addItemToIngredientTabItemGroup);
     }
 
 }

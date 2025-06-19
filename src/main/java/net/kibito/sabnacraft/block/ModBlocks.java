@@ -22,7 +22,7 @@ public class ModBlocks {
     public static final Block SILVER_ORE = registerBlock("silver_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
     public static final Block DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name,block );

@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "sabnacraft:silver_ore",
-    "sabnacraft:silver_block"
+    "sabnacraft:silver_block",
+    "sabnacraft:deepslate_silver_ore"
   ]
 }
