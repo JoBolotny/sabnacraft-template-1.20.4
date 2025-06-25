@@ -69,6 +69,8 @@ public class ScanerItem extends Item {
             player.sendMessage(Text.literal("Тут можно плавить предметы"), false);
         } else if (block == ModBlocks.SILVER_ORE) {
             player.sendMessage(Text.literal("Можно переплавить и получить серебряный слиток"), false);
+        } else if (block == ModBlocks.DEEPSLATE_SILVER_ORE) {
+            player.sendMessage(Text.literal("Можно переплавить и получить серебряный слиток"), false);
         } else {
             player.sendMessage(Text.literal("Этот блок изучен вами"), false);
         }
@@ -76,7 +78,7 @@ public class ScanerItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.literal("ПКМ по блоку для сканирования"));
-        tooltip.add(Text.literal("Прочность: " + (stack.getMaxDamage() - stack.getDamage()) + "/" + stack.getMaxDamage()));
+        tooltip.add(Text.translatable("ПКМ по блоку для сканирования"));
+        tooltip.add(Text.translatable("Прочность: " + (stack.getMaxDamage() - stack.getDamage()) + "/" + stack.getMaxDamage()));
     }
 }

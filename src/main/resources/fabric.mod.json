@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
 	"id": "sabnacraft",
-	"version": "Alpha",
-	"name": "Subnacraft",
+	"version": "0.0.1",
+	"name": "Sabnacraft",
 	"description": "Мод по легендарной игре сабнаутика",
 	"authors": [
 		"KiBiTo team"

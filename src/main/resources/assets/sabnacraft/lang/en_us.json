@@ -7,14 +7,17 @@
     "item.sabnacraft.computer_chip": "Computer chip",
     "item.sabnacraft.crystal_flint": "Crystal flint",
     "item.sabnacraft.scaner": "Scaner",
-    "item.sabnacraft.ion_cube": "Ion_cube",
+    "item.sabnacraft.ion_cube": "Ion cube",
     "item.sabnacraft.raw_lithium": "Raw lithium",
     "item.sabnacraft.raw_nickel": "Raw nickel",
     "item.sabnacraft.nickel_ingot": "Nickel ingot",
+    "item.sabnacraft.peeper": "Peeper",
+    "item.sabnacraft.cooked_peeper": "Cooked peeper",
 
     "block.sabnacraft.silver_block": "Block of Silver",
     "block.sabnacraft.silver_ore": "Silver Ore",
     "block.sabnacraft.deepslate_silver_ore": "Deepslate Silver Ore",
+    "block.sabnacraft.fabricator": "fabricator",
 
     "sabnacraft": "Sabnacraft Item's"
 }

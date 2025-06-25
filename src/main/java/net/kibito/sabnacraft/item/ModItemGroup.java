@@ -27,6 +27,8 @@ public class ModItemGroup {
                 entries.add(Moditems.RAW_LITHIUM);
                 entries.add(Moditems.RAW_NICKEL);
                 entries.add(Moditems.NICKEL_INGOT);
+                entries.add(Moditems.PEEPER);
+                entries.add(Moditems.COOKED_PEEPER);
 
                 entries.add(ModBlocks.SILVER_BLOCK);
                 entries.add(ModBlocks.SILVER_ORE);
