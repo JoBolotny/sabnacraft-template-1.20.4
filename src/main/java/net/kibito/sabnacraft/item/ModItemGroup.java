@@ -29,10 +29,21 @@ public class ModItemGroup {
                 entries.add(Moditems.NICKEL_INGOT);
                 entries.add(Moditems.PEEPER);
                 entries.add(Moditems.COOKED_PEEPER);
+                entries.add(Moditems.BATTERY);
+                entries.add(Moditems.ION_BATTERY);
+                entries.add(Moditems.POWER_CELL);
+                entries.add(Moditems.ION_POWER_CELL);
+                entries.add(Moditems.GEL_SACK);
+                entries.add(Moditems.LITHIUM_INGOT);
+                entries.add(Moditems.RUBBER);
+                entries.add(Moditems.RUBY);
+                entries.add(Moditems.SULPHUR);
 
                 entries.add(ModBlocks.SILVER_BLOCK);
+                entries.add(ModBlocks.RUBY_BLOCK);
                 entries.add(ModBlocks.SILVER_ORE);
                 entries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
+                entries.add(ModBlocks.KYANITE_CLUSTER);
                     }).build() );
 
     public static void registerItemGroup(){

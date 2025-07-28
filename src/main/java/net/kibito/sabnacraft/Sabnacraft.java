@@ -19,6 +19,6 @@ public class Sabnacraft implements ModInitializer {
 
 		Moditems.registerModItems();
 		ModBlocks.registerModBlocks();
-		FuelRegistry.INSTANCE.add(Moditems.ION_CUBE, 2400);
+		FuelRegistry.INSTANCE.add(Moditems.ION_CUBE, 10000);
 	}
 }

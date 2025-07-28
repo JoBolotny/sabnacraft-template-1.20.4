@@ -1,5 +1,5 @@
 {
-    "item.sabnacraft.raw_silver": "Raw_silver",
+    "item.sabnacraft.raw_silver": "Raw silver",
     "item.sabnacraft.kyanite": "Kyanite Shard",
     "item.sabnacraft.silver_ingot": "Silver Ingot",
     "item.sabnacraft.wiring_kit": "Wiring Kit",
@@ -13,8 +13,19 @@
     "item.sabnacraft.nickel_ingot": "Nickel ingot",
     "item.sabnacraft.peeper": "Peeper",
     "item.sabnacraft.cooked_peeper": "Cooked peeper",
+    "item.sabnacraft.battery": "Battery",
+    "item.sabnacraft.ion_battery": "Ion battery",
+    "item.sabnacraft.power_cell": "Power cell",
+    "item.sabnacraft.ion_power_cell": "Ion power cell",
+    "item.sabnacraft.gel_sack": "Gel sack",
+    "item.sabnacraft.lithium_ingot": "Lithium ingot",
+    "item.sabnacraft.rubber": "Rubber",
+    "item.sabnacraft.ruby": "Ruby",
+    "item.sabnacraft.sulphur": "Sulphur",
+
 
     "block.sabnacraft.silver_block": "Block of Silver",
+    "block.sabnacraft.ruby_block": "Block of Ruby",
     "block.sabnacraft.silver_ore": "Silver Ore",
     "block.sabnacraft.deepslate_silver_ore": "Deepslate Silver Ore",
     "block.sabnacraft.fabricator": "fabricator",

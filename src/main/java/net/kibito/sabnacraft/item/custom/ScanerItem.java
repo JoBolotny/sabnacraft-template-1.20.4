@@ -72,7 +72,7 @@ public class ScanerItem extends Item {
         } else if (block == ModBlocks.DEEPSLATE_SILVER_ORE) {
             player.sendMessage(Text.literal("Можно переплавить и получить серебряный слиток"), false);
         } else {
-            player.sendMessage(Text.literal("Этот блок изучен вами"), false);
+            player.sendMessage(Text.literal("Этот блок вам знаком"), false);
         }
     }
 

@@ -12,8 +12,18 @@
   "item.sabnacraft.nickel_ingot": "Никелевый слиток",
   "item.sabnacraft.peeper": "Пискун",
   "item.sabnacraft.cooked_peeper": "Жаренный пискун",
+  "item.sabnacraft.battery": "Батарейка",
+  "item.sabnacraft.ion_battery": "Ионовая батарейка",
+  "item.sabnacraft.power_cell": "Энергоячейка",
+  "item.sabnacraft.ion_power_cell": "Ионовая энергоячейка",
+  "item.sabnacraft.gel_sack": "Гелеобразный мешочек",
+  "item.sabnacraft.lithium_ingot": "Литиевый слиток",
+  "item.sabnacraft.rubber": "Резина",
+  "item.sabnacraft.ruby": "Рубин",
+  "item.sabnacraft.sulphur": "Сера",
 
   "block.sabnacraft.silver_block": "Серебряный блок",
+  "block.sabnacraft.ruby_block": "Рубиновый блок",
   "block.sabnacraft.silver_ore": "Серебряная руда",
   "block.sabnacraft.deepslate_silver_ore": "Серебряносный глубинный сланец",
 

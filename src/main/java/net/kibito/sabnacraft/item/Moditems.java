@@ -22,6 +22,15 @@ public class Moditems {
     public static final Item RAW_NICKEL = registerItem("raw_nickel",new Item(new FabricItemSettings()));
     public static final Item NICKEL_INGOT = registerItem("nickel_ingot",new Item(new FabricItemSettings()));
     public static final Item COOKED_PEEPER = registerItem("cooked_peeper",new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_PEEPER)));
+    public static final Item BATTERY = registerItem("battery",new Item(new FabricItemSettings()));
+    public static final Item ION_BATTERY = registerItem("ion_battery",new Item(new FabricItemSettings()));
+    public static final Item POWER_CELL = registerItem("power_cell",new Item(new FabricItemSettings()));
+    public static final Item ION_POWER_CELL = registerItem("ion_power_cell",new Item(new FabricItemSettings()));
+    public static final Item GEL_SACK = registerItem("gel_sack",new Item(new FabricItemSettings()));
+    public static final Item LITHIUM_INGOT = registerItem("lithium_ingot",new Item(new FabricItemSettings()));
+    public static final Item RUBBER = registerItem("rubber",new Item(new FabricItemSettings()));
+    public static final Item RUBY = registerItem("ruby",new Item(new FabricItemSettings()));
+    public static final Item SULPHUR = registerItem("sulphur",new Item(new FabricItemSettings()));
     public static final Item SCANER = registerItem("scaner",
             new ScanerItem(new FabricItemSettings().maxDamage(64)));
 
