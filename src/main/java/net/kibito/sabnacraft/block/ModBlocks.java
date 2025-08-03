@@ -30,29 +30,7 @@ public class ModBlocks {
     public static final Block DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
     public static final Block KYANITE_CLUSTER = registerBlock("kyanite_cluster",
-            new FacingBlock(AbstractBlock.Settings.copy(Blocks.AMETHYST_CLUSTER)) {
-                // 1. Правильная реализация getCodec()
-                @Override
-                public MapCodec<? extends FacingBlock> getCodec() {
-                    return FacingBlock.createCodec(settings -> new FacingBlock(settings) {
-                        @Override
-                        protected MapCodec<? extends FacingBlock> getCodec() {
-                            return null;
-                        }
-
-                        @Override
-                        protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
-                            builder.add(FACING);
-                        }
-                    });
-                }
-
-                // 2. Обязательное добавление свойства FACING
-                @Override
-                protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
-                    builder.add(FACING);
-                }
-            });
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
 
 
     private static Block registerBlock(String name, Block block){

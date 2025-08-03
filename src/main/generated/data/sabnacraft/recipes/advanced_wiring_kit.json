@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "sabnacraft:computer_chip"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "w": {
+      "item": "sabnacraft:wiring_kit"
+    }
+  },
+  "pattern": [
+    " g ",
+    "w c",
+    " g "
+  ],
+  "result": {
+    "item": "sabnacraft:advanced_wiring_kit"
+  }
+}

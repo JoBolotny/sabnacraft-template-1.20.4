@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_computer_chip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sabnacraft:computer_chip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gold_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:advanced_wiring_kit"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wiring_kit": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sabnacraft:wiring_kit"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gold_ingot",
+      "has_wiring_kit",
+      "has_computer_chip"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:advanced_wiring_kit"
+    ]
+  }
+}

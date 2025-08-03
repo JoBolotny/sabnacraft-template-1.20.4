@@ -1,0 +1,22 @@
+/time set day
+/recipe give Player467 minecraft:acacia_boat
+/time set day
+/recipe take Player778 *
+/setblock -21 69 96
+/setblock -21 69 96 cob
+/setblock -21 69 96 minecraft:cobblestone
+/time set day
+/effect give Player197 minecraft:hunger 2 255
+/give Player256 minecraft:wooden_sword{"enchant":""}
+/give Player256 minecraft:wooden_sword{"enchant":"empty"}
+/give Player256 minecraft:wooden_sword{"enchant":"sharpnes"}
+/give Player256 minecraft:command_block
+/give @s minecraft:diamond_sword{display:{Name:'[{"text":"Супер меч"}]'},Enchantments:[{id:"minecraft:unbreaking",lvl:30000},{id:"minecraft:sharpness",lvl:5000},{id:"minecraft:mending",lvl:1},{id:"minecraft:looting",lvl:3000}]}
+/give @s minecraft:wooden_sword{display:{Name:'[{"text":""}]'},Enchantments:[{id:"minecraft:unbreaking",lvl:30000},{id:"minecraft:sharpness",lvl:5000},{id:"minecraft:mending",lvl:1},{id:"minecraft:looting",lvl:3000}]}
+/tick rate 200
+/tick rate 2000
+/tick rate 20
+/time set day
+/recipe give Player745 sabnacraft:advanced_wiring_kit
+/recipe give Player745 sabnacraft
+/recipe give Player745 sabnacraft:silver_ingot_from_blasting_deepslate_silver_ore

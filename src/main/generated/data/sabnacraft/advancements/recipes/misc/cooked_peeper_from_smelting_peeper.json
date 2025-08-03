@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_peeper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sabnacraft:peeper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cooked_peeper_from_smelting_peeper"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_peeper"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cooked_peeper_from_smelting_peeper"
+    ]
+  }
+}

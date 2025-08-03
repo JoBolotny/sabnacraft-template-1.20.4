@@ -1,0 +1,45 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-06-25 18:52:20 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-06-25 18:52:20 +0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_plains": "2025-06-25 18:52:22 +0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2025-06-25 18:53:26 +0500"
+    },
+    "done": true
+  },
+  "sabnacraft:recipes/building_blocks/silver_ingot": {
+    "criteria": {
+      "has_silver_block": "2025-08-03 15:45:17 +0500"
+    },
+    "done": true
+  },
+  "sabnacraft:recipes/decorations/silver_block": {
+    "criteria": {
+      "has_silver_ingot": "2025-08-03 15:45:17 +0500"
+    },
+    "done": true
+  },
+  "sabnacraft:recipes/misc/wiring_kit": {
+    "criteria": {
+      "has_silver_ingot": "2025-08-03 15:45:17 +0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3700
+}

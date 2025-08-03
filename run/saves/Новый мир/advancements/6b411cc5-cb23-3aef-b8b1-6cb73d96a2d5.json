@@ -1,0 +1,195 @@
+{
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-28 14:34:52 +0500"
+    },
+    "done": true
+  },
+  "sabnacraft:recipes/misc/computer_chip": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-28 14:34:52 +0500"
+    },
+    "done": true
+  },
+  "sabnacraft:recipes/building_blocks/silver_ingot": {
+    "criteria": {
+      "has_silver_block": "2025-07-28 14:35:33 +0500"
+    },
+    "done": true
+  },
+  "sabnacraft:recipes/decorations/silver_block": {
+    "criteria": {
+      "has_silver_ingot": "2025-07-28 14:35:08 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-28 14:34:52 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2025-07-28 14:35:00 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2025-07-28 14:35:00 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2025-07-28 14:35:00 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2025-07-28 14:35:00 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2025-07-28 14:34:13 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2025-07-28 14:35:00 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2025-07-28 14:34:13 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2025-07-28 14:35:00 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2025-07-28 14:35:00 +0500"
+    },
+    "done": true
+  },
+  "sabnacraft:recipes/misc/silver_ingot_from_blasting_raw_silver": {
+    "criteria": {
+      "has_raw_silver": "2025-07-28 14:34:39 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2025-07-28 14:34:13 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-07-28 14:34:13 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2025-07-28 14:35:00 +0500"
+    },
+    "done": true
+  },
+  "sabnacraft:recipes/misc/advanced_wiring_kit": {
+    "criteria": {
+      "has_gold_ingot": "2025-07-28 14:35:00 +0500"
+    },
+    "done": true
+  },
+  "sabnacraft:recipes/misc/silver_ingot_from_blasting_silver_ore": {
+    "criteria": {
+      "has_silver_ore": "2025-07-28 14:34:24 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2025-07-28 14:35:00 +0500"
+    },
+    "done": true
+  },
+  "sabnacraft:recipes/misc/wiring_kit": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-28 14:34:52 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-28 14:34:52 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2025-07-28 14:35:00 +0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_plains": "2025-07-28 14:34:15 +0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2025-07-28 14:35:00 +0500"
+    },
+    "done": true
+  },
+  "sabnacraft:recipes/misc/silver_ingot_from_smelting_silver_ore": {
+    "criteria": {
+      "has_silver_ore": "2025-07-28 14:34:24 +0500"
+    },
+    "done": true
+  },
+  "sabnacraft:recipes/misc/silver_ingot_from_blasting_deepslate_silver_ore": {
+    "criteria": {
+      "has_deepslate_silver_ore": "2025-07-28 14:34:22 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2025-07-28 14:35:00 +0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2025-07-28 14:35:00 +0500"
+    },
+    "done": true
+  },
+  "sabnacraft:recipes/misc/silver_ingot_from_smelting_deepslate_silver_ore": {
+    "criteria": {
+      "has_deepslate_silver_ore": "2025-07-28 14:34:22 +0500"
+    },
+    "done": true
+  },
+  "sabnacraft:recipes/misc/silver_ingot_from_smelting_raw_silver": {
+    "criteria": {
+      "has_raw_silver": "2025-07-28 14:34:39 +0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3700
+}

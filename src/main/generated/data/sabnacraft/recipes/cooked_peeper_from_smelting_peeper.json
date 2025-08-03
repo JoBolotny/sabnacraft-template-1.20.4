@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "peeper",
+  "ingredient": {
+    "item": "sabnacraft:peeper"
+  },
+  "result": "sabnacraft:cooked_peeper"
+}

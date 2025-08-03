@@ -44,6 +44,7 @@ public class ModItemGroup {
                 entries.add(ModBlocks.SILVER_ORE);
                 entries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
                 entries.add(ModBlocks.KYANITE_CLUSTER);
+
                     }).build() );
 
     public static void registerItemGroup(){

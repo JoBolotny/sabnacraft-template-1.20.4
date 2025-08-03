@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "s": {
+      "item": "sabnacraft:silver_ingot"
+    }
+  },
+  "pattern": [
+    " s ",
+    "crc",
+    " s "
+  ],
+  "result": {
+    "item": "sabnacraft:wiring_kit"
+  }
+}
